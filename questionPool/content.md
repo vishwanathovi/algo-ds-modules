@@ -119,3 +119,125 @@ hundred lockers. Next, he closes every second locker. Then he goes to every thir
 locker and closes it if it is open or opens it if it is closed (e.g., he toggles every third
 locker). After his one hundredth pass in the hallway, in which he toggles only locker
 number one hundred, how many lockers are open?
+
+
+## Question marked as moderate in the book - cracking the coding interview
+
+19.1 Write a function to swap a number in place without temporary variables.
+_ _ _______________________________________________________________pg 265
+19.2 Design an algorithm to figure out if someone has won in a game of tic-tac-toe.
+_ _ _______________________________________________________________pg 266
+19.3 Write an algorithm which computes the number of trailing zeros in n factorial.
+_ _ _______________________________________________________________pg 268
+19.4 Write a method which finds the maximum of two numbers. You should not use if-
+else or any other comparison operator.
+EXAMPLE
+Input: 5, 10
+Output: 10
+________________________________________________________________pg 269
+19.5
+The Game of Master Mind is played as follows:
+The computer has four slots containing balls that are red (R), yellow (Y), green (G) or
+blue (B). For example, the computer might have RGGB (e.g., Slot #1 is red, Slots #2 and
+#3 are green, Slot #4 is blue).
+You, the user, are trying to guess the solution. You might, for example, guess YRGB.
+When you guess the correct color for the correct slot, you get a “hit”. If you guess
+a color that exists but is in the wrong slot, you get a “pseudo-hit”. For example, the
+guess YRGB has 2 hits and one pseudo hit.
+For each guess, you are told the number of hits and pseudo-hits.
+Write a method that, given a guess and a solution, returns the number of hits and
+pseudo hits.
+________________________________________________________________pg 270
+19.6
+Given an integer between 0 and 999,999, print an English phrase that describes the
+integer (eg, “One Thousand, Two Hundred and Thirty Four”).
+________________________________________________________________pg 271
+19.7
+You are given an array of integers (both positive and negative). Find the continuous
+sequence with the largest sum. Return the sum.
+EXAMPLE
+Input: {2, -8, 3, -2, 4, -10}
+Output: 5 (i.e., {3, -2, 4} )
+________________________________________________________________pg 273
+19.8
+89
+Design a method to find the frequency of occurrences of any given word in a book.
+
+
+19.9
+Since XML is very verbose, you are given a way of encoding it where each tag gets
+mapped to a pre-defined integer value. The language/grammar is as follows:
+Element --> Element Attr* END Element END [aka, encode the element
+
+tag, then its attributes, then tack on an END character, then
+
+encode its children, then another end tag]
+Attr --> Tag Value [assume all values are strings]
+END --> 01
+Tag --> some predefined mapping to int
+Value --> string value END
+Write code to print the encoded version of an xml element (passed in as string).
+FOLLOW UP
+Is there anything else you could do to (in many cases) compress this even further?
+________________________________________________________________pg 275
+19.10 Write a method to generate a random number between 1 and 7, given a method
+that generates a random number between 1 and 5 (i.e., implement rand7() using
+rand5()).
+________________________________________________________________pg 277
+19.11 Design an algorithm to find all pairs of integers within an array which sum to a speci-
+fied value.
+__________
+
+
+## Question marked as hard in the book - cracking the coding interview
+
+20.1 Write a function that adds two numbers. You should not use + or any arithmetic op-
+erators.
+________________________________________________________________pg 279
+20.2 Write a method to shuffle a deck of cards. It must be a perfect shuffle - in other words,
+each 52! permutations of the deck has to be equally likely. Assume that you are given
+a random number generator which is perfect.
+________________________________________________________________pg 281
+20.3 Write a method to randomly generate a set of m integers from an array of size n. Each
+element must have equal probability of being chosen.
+________________________________________________________________pg 282
+20.4 Write a method to count the number of 2s between 0 and n.
+_ _ _______________________________________________________________pg 283
+20.5 You have a large text file containing words. Given any two words, find the shortest
+distance (in terms of number of words) between them in the file. Can you make the
+searching operation in O(1) time? What about the space complexity for your solu-
+tion?
+________________________________________________________________pg 285
+20.6 Describe an algorithm to find the largest 1 million numbers in 1 billion numbers. As-
+sume that the computer memory can hold all one billion numbers.
+________________________________________________________________pg 286
+20.7
+Write a program to find the longest word made of other words in a list of words.
+EXAMPLE
+Input: test, tester, testertest, testing, testingtester
+Output: testingtester
+________________________________________________________________pg 287
+20.8 Given a string s and an array of smaller strings T, design a method to search s for each
+small string in T.
+________________________________________________________________pg 288
+20.9 Numbers are randomly generated and passed to a method. Write a program to find
+and maintain the median value as new values are generated.
+________________________________________________________________pg 290
+20.10 Given two words of equal length that are in a dictionary, write a method to transform
+one word into another word by changing only one letter at a time. The new word you
+get in each step must be in the dictionary.
+EXAMPLE
+Input: DAMP, LIKE
+Output: DAMP -> LAMP -> LIMP -> LIME -> LIKE
+________________________________________________________________pg 291
+20.11 Imagine you have a square matrix, where each cell is filled with either black or white.
+Design an algorithm to find the maximum subsquare such that all four borders are
+filled with black pixels.
+________________________________________________________________pg 293
+20.12 Given an NxN matrix of positive and negative integers, write code to find the sub-
+matrix with the largest possible sum.
+________________________________________________________________pg 295
+20.13 Given a dictionary of millions of words, give an algorithm to find the largest possible
+rectangle of letters such that every row forms a word (reading left to right) and every
+column forms a word (reading top to bottom).
+_________________________________________
