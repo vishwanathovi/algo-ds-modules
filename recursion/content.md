@@ -8,6 +8,7 @@
  - Hint:--> Which is the simplest case where the answer can be solved directly
  - [Read after solving](https://interactivepython.org/courselib/static/pythonds/Recursion/pythondsCalculatingtheSumofaListofNumbers.html)
 
+
 3. [Properties of recursive algorithms](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/properties-of-recursive-algorithms)
 
 4. Practise Problems
